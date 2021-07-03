@@ -1204,7 +1204,6 @@ public class ConversationMessageView extends FrameLayout implements View.OnClick
                 // This touch event is a long click, preemptively handle this touch event so that
                 // the link span won't get a onClicked() callback.
                 mIsLongClick = false;
-                return false;
             }
 
             if (event.getActionMasked() == MotionEvent.ACTION_DOWN) {
